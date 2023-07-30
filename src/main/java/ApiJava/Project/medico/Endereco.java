@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class   Endereco {
+public class Endereco {
 
     private String logradouro;
     private String numero;
@@ -20,17 +20,38 @@ public class   Endereco {
     private String bairro;
     private String cep;
     private String cidade;
-    private String UF;
+    private String uf;
 
-    public Endereco(DadosEndereco dados){
+    public Endereco(DadosEndereco dados) {
         this.logradouro = dados.logradouro();
         this.bairro = dados.bairro();
         this.cep = dados.cep();
-        this.UF = dados.UF();
+        this.uf = dados.uf();
         this.cidade = dados.cidade();
         this.numero = dados.numero();
         this.complemento = dados.complemento();
 
     }
 
+    public void atualizarInformacoes(DadosEndereco dados) {
+        if (dados.logradouro() != null){
+            this.logradouro = dados.logradouro();
+        }
+        if (dados.bairro() != null){
+            this.bairro = dados.bairro();
+        }
+        if (dados.cep() != null){
+            this.cep = dados.cep();
+        }
+        if (dados.uf() != null){
+            this.uf = dados.uf();
+        }
+        if (dados.numero() != null){
+            this.numero = dados.numero();
+        }
+        if (dados.complemento() != null){
+            this.complemento = dados.complemento();
+        }
+
+    }
 }

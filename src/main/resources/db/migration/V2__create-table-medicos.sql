@@ -8,7 +8,7 @@ CREATE TABLE medicos (
   bairro VARCHAR(20) NOT NULL,
   cep VARCHAR(9) NOT NULL,
   cidade VARCHAR(20) NOT NULL,
-  uf CHAR(2),
+  uf CHAR(2) NOT NULL,
   numero VARCHAR(20) NOT NULL,
   complemento VARCHAR(100) NOT NULL,
   PRIMARY KEY (id)
