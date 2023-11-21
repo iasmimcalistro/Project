@@ -1,6 +1,5 @@
-package ApiJava.Project.medico;
+package ApiJava.Project.dto;
 
-import ApiJava.Project.endereco.DadosEndereco;
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 

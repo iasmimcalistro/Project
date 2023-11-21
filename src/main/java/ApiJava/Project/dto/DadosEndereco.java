@@ -1,4 +1,4 @@
-package ApiJava.Project.endereco;
+package ApiJava.Project.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,6 +1,5 @@
-package ApiJava.Project.medico;
+package ApiJava.Project.dto;
 
-import ApiJava.Project.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

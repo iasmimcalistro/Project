@@ -1,4 +1,4 @@
-package ApiJava.Project.medico;
+package ApiJava.Project.dto;
 
 public enum Especialidade {
 

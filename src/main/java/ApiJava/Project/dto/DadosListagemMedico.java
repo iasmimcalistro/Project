@@ -1,6 +1,4 @@
-package ApiJava.Project.medico;
-
-import java.security.PublicKey;
+package ApiJava.Project.dto;
 
 public record DadosListagemMedico(String nome, String email, String crm, Especialidade especialidade) {
 

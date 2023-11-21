@@ -1,6 +1,4 @@
-package ApiJava.Project.medico;
-
-import ApiJava.Project.endereco.DadosEndereco;
+package ApiJava.Project.dto;
 
 public record DadosAtualizacaoMedico(
         Long id,
